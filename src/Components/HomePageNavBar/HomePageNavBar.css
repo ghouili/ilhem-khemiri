@@ -1,0 +1,105 @@
+.HomePageNavBar {
+    display: flex;
+    height: 5vh;
+    background-color: var(--primary);
+    color: white;
+}
+
+.h-left {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.h-list {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vw;
+    margin-left: 2vw;
+}
+
+.h-list>* {
+    cursor: pointer;
+}
+
+.h-right {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.h-rightInner {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+
+.h-notSigned {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+
+.h-notSigned>* {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+
+}
+
+.h-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+    cursor: pointer;
+}
+
+.h-user>img {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.h-cart {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 620px) {
+    .h-left {
+        display: none;
+    }
+
+    .h-rightInner {
+        gap: unset;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 8vw;
+    }
+
+    /* .h-user > img {
+        width: 5vh;
+        height: 5vh;
+    } */
+
+}
+
+/* @media screen and (max-width: 620px) {
+    .h-left{
+        display: none;
+    }
+    */
+/* } */

@@ -1,0 +1,25 @@
+.m-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 1;
+    width: 95vw;
+    max-height: 60vh;
+    overflow-y: scroll;
+    box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.57);
+    /* transition: box-shadow 0.3s ease-in-out; */
+}
+
+.m-products:hover {
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.m-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.m-column {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
