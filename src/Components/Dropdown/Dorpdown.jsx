@@ -1,6 +1,6 @@
 import "./Dropdown.css";
 import React, { useState } from "react";
-import ArrowDown from "@iconscout/react-unicons/icons/uil-angle-down";
+// import ArrowDown from "@iconscout/react-unicons/icons/uil-angle-down";
 import ArrowUp from "@iconscout/react-unicons/icons/uil-angle-up";
 import Cross from "@iconscout/react-unicons/icons/uil-times";
 
@@ -38,7 +38,7 @@ const categories = [
 ];
 
 const Dropdown = () => {
-  const [options, setOptions] = useState(categories);
+  // const [options, setOptions] = useState(categories);
   const [value, setValue] = useState("");
   const [filteredOptions, setFilteredOptions] = useState(options);
   const [showOptions, setShowOptions] = useState(false);
@@ -46,7 +46,7 @@ const Dropdown = () => {
 
   const handleInputChange = (e) => {
     setValue(e.target.value);
-    if (e.target.value == "") {
+    if (e.target.value === "") {
       setFilteredOptions(options);
     } else {
       setFilteredOptions(

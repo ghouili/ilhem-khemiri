@@ -5,7 +5,7 @@ import SearchNavBar from '../SearchNavBar/SearchNavBar';
 import MainNavBar from '../MainNavBar/MainNavBar';
 
 const NavBar = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  // const [showMenu, setShowMenu] = useState(false);
 
   return (
     <>

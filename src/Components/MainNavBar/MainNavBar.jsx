@@ -1,7 +1,7 @@
 import "./MainNavBar.css";
 import React from "react";
 
-import User from "@iconscout/react-unicons/icons/uil-user";
+// import User from "@iconscout/react-unicons/icons/uil-user";
 const MainNavBar = () => {
   const techEcommerce = [
     {

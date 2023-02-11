@@ -1,6 +1,6 @@
 import "./MainSlider.css";
 import React from "react";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 // import "swiper/css/swiper.css";
