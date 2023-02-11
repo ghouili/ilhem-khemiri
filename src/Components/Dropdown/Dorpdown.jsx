@@ -38,7 +38,7 @@ const categories = [
 ];
 
 const Dropdown = () => {
-  // const [options, setOptions] = useState(categories);
+  const [options, setOptions] = useState(categories);
   const [value, setValue] = useState("");
   const [filteredOptions, setFilteredOptions] = useState(options);
   const [showOptions, setShowOptions] = useState(false);
