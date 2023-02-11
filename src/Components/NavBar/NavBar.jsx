@@ -1,5 +1,5 @@
 import './NavBar.css';
-import React, { useState } from 'react';
+import React from 'react';
 import HomePageNavBar from '../HomePageNavBar/HomePageNavBar';
 import SearchNavBar from '../SearchNavBar/SearchNavBar';
 import MainNavBar from '../MainNavBar/MainNavBar';
